@@ -1,0 +1,1644 @@
+Day 1
+
+Create a simple HTML page with headings and paragraphs.
+
+ans: At first we need to create a index.html file and write the below code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Simple HTML Page</h1>
+    <p>This is a simple example of an HTML page. You can use HTML to structure your web content.</p>
+
+    <h2>About HTML</h2>
+    <p>HTML stands for HyperText Markup Language. It is the standard language for creating web pages.</p>
+
+    <h2>Why Learn HTML?</h2>
+    <p>Learning HTML is essential for anyone looking to build websites or work in web development. It provides the basic structure for all web content.</p>
+
+    <h2>Getting Started</h2>
+    <p>To start coding in HTML, all you need is a simple text editor and a web browser. You can write your HTML code and open it in a browser to see how it looks.</p>
+
+</body>
+</html>
+
+Day 2
+
+links
+Add links and lists to your HTML page.
+
+ans: just adding links and lists to the above html code
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        a {
+            color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Simple HTML Page</h1>
+    <p>This is a simple example of an HTML page. You can use HTML to structure your web content.</p>
+
+    <h2>About HTML</h2>
+    <p>HTML stands for HyperText Markup Language. It is the standard language for creating web pages.</p>
+
+    <h2>Why Learn HTML?</h2>
+    <p>Learning HTML is essential for anyone looking to build websites or work in web development. It provides the basic structure for all web content.</p>
+
+    <h2>Getting Started</h2>
+    <p>To start coding in HTML, all you need is a simple text editor and a web browser. You can write your HTML code and open it in a browser to see how it looks.</p>
+
+    <h2>Useful Resources</h2>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+        <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy - Learn HTML</a></li>
+    </ul>
+
+    <h2>Common HTML Elements</h2>
+    <ol>
+        <li>Headings</li>
+        <li>Paragraphs</li>
+        <li>Links</li>
+        <li>Lists</li>
+        <li>Images</li>
+    </ol>
+
+</body>
+</html>
+
+
+forms
+
+Create a basic form in your HTML page.
+
+ans:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        a {
+            color: #0066cc;
+        }
+        form {
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Simple HTML Page</h1>
+    <p>This is a simple example of an HTML page. You can use HTML to structure your web content.</p>
+
+    <h2>About HTML</h2>
+    <p>HTML stands for HyperText Markup Language. It is the standard language for creating web pages.</p>
+
+    <h2>Why Learn HTML?</h2>
+    <p>Learning HTML is essential for anyone looking to build websites or work in web development. It provides the basic structure for all web content.</p>
+
+    <h2>Getting Started</h2>
+    <p>To start coding in HTML, all you need is a simple text editor and a web browser. You can write your HTML code and open it in a browser to see how it looks.</p>
+
+    <h2>Useful Resources</h2>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+        <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy - Learn HTML</a></li>
+    </ul>
+
+    <h2>Common HTML Elements</h2>
+    <ol>
+        <li>Headings</li>
+        <li>Paragraphs</li>
+        <li>Links</li>
+        <li>Lists</li>
+        <li>Images</li>
+    </ol>
+
+    <h2>Contact Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
+
+
+project resources
+
+
+Day 3
+
+Apply basic styles to your HTML page (e.g., fonts, colors).
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9; /* Light background for contrast */
+            color: #333; /* Dark text for readability */
+        }
+        h1 {
+            color: #2c3e50; /* Darker shade for the main heading */
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #34495e; /* Subtle color for subheadings */
+            margin-top: 20px; /* More space above subheadings */
+        }
+        a {
+            color: #2980b9; /* A brighter blue for links */
+            text-decoration: none; /* Remove underline */
+        }
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+        form {
+            background-color: #fff; /* White background for the form */
+            border: 1px solid #ddd; /* Light border */
+            padding: 20px;
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            margin-top: 20px; /* Space above the form */
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold; /* Bold labels */
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px; /* More padding for inputs */
+            margin-bottom: 15px; /* More space between fields */
+            border: 1px solid #ccc; /* Light border */
+            border-radius: 4px; /* Rounded corners */
+            box-sizing: border-box; /* Include padding in width */
+        }
+        input[type="submit"] {
+            background-color: #2980b9; /* Submit button color */
+            color: white; /* White text for contrast */
+            border: none; /* No border */
+            cursor: pointer; /* Pointer on hover */
+            padding: 10px; /* Padding for the button */
+            font-size: 16px; /* Larger text */
+            border-radius: 4px; /* Rounded corners */
+        }
+        input[type="submit"]:hover {
+            background-color: #3498db; /* Lighter blue on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to My Simple HTML Page</h1>
+    <p>This is a simple example of an HTML page. You can use HTML to structure your web content.</p>
+
+    <h2>About HTML</h2>
+    <p>HTML stands for HyperText Markup Language. It is the standard language for creating web pages.</p>
+
+    <h2>Why Learn HTML?</h2>
+    <p>Learning HTML is essential for anyone looking to build websites or work in web development. It provides the basic structure for all web content.</p>
+
+    <h2>Getting Started</h2>
+    <p>To start coding in HTML, all you need is a simple text editor and a web browser. You can write your HTML code and open it in a browser to see how it looks.</p>
+
+    <h2>Useful Resources</h2>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+        <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy - Learn HTML</a></li>
+    </ul>
+
+    <h2>Common HTML Elements</h2>
+    <ol>
+        <li>Headings</li>
+        <li>Paragraphs</li>
+        <li>Links</li>
+        <li>Lists</li>
+        <li>Images</li>
+    </ol>
+
+    <h2>Contact Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
+
+Day 4
+
+Experiment with different CSS selectors to style specific elements.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled HTML Page</title>
+    <style>
+        /* Universal Selector */
+        * {
+            box-sizing: border-box; /* Ensures padding and border are included in width/height */
+        }
+
+        /* Body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4; /* Light gray background */
+            color: #333;
+        }
+
+        /* ID Selector */
+        #main-title {
+            color: #2c3e50; /* Darker color for main title */
+            font-size: 2.5em; /* Larger font size */
+            margin-bottom: 15px;
+        }
+
+        /* Class Selector */
+        .section-title {
+            color: #2980b9; /* Bright blue for section titles */
+            border-bottom: 2px solid #3498db; /* Underline effect */
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        /* Descendant Selector */
+        ul li {
+            margin-bottom: 10px; /* Space between list items */
+            list-style-type: square; /* Square bullets for the list */
+        }
+
+        /* Pseudo-Class for Links */
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline; /* Underline on hover */
+            color: #3498db; /* Lighter blue on hover */
+        }
+
+        /* Pseudo-Class for Form Elements */
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        textarea:focus {
+            border: 2px solid #3498db; /* Blue border on focus */
+            outline: none; /* Remove default outline */
+        }
+
+        /* Form Styling */
+        form {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        /* Submit Button Styling */
+        input[type="submit"] {
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #3498db;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="main-title">Welcome to My Styled HTML Page</h1>
+    <p>This is an example of a styled HTML page using various CSS selectors.</p>
+
+    <h2 class="section-title">About HTML</h2>
+    <p>HTML stands for HyperText Markup Language. It is the standard language for creating web pages.</p>
+
+    <h2 class="section-title">Why Learn HTML?</h2>
+    <p>Learning HTML is essential for anyone looking to build websites or work in web development. It provides the basic structure for all web content.</p>
+
+    <h2 class="section-title">Getting Started</h2>
+    <p>To start coding in HTML, all you need is a simple text editor and a web browser. You can write your HTML code and open it in a browser to see how it looks.</p>
+
+    <h2 class="section-title">Useful Resources</h2>
+    <ul>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+        <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy - Learn HTML</a></li>
+    </ul>
+
+    <h2 class="section-title">Common HTML Elements</h2>
+    <ol>
+        <li>Headings</li>
+        <li>Paragraphs</li>
+        <li>Links</li>
+        <li>Lists</li>
+        <li>Images</li>
+    </ol>
+
+    <h2 class="section-title">Contact Form</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
+
+Key CSS Selectors Used:
+Universal Selector (*): Applies styles to all elements.
+ID Selector (#main-title): Targets the main title specifically for unique styling.
+Class Selector (.section-title): Styles all section titles for consistency.
+Descendant Selector (ul li): Styles list items within an unordered list.
+Pseudo-Classes (a:hover, input:focus): Styles elements when hovered or focused, enhancing interactivity.
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Create a simple layout for your HTML page.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Layout HTML Page</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        
+        /* Container for the layout */
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "header header"
+                "sidebar main"
+                "footer footer";
+            grid-template-columns: 1fr 3fr; /* 1 part sidebar, 3 parts main */
+            grid-template-rows: auto 1fr auto; /* Auto height for header and footer */
+            height: 100vh; /* Full viewport height */
+        }
+
+        /* Header styles */
+        header {
+            grid-area: header;
+            background-color: #2980b9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Sidebar styles */
+        aside {
+            grid-area: sidebar;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Main content styles */
+        main {
+            grid-area: main;
+            background-color: white;
+            padding: 20px;
+            overflow-y: auto; /* Scroll if content is too tall */
+        }
+
+        /* Footer styles */
+        footer {
+            grid-area: footer;
+            background-color: #2980b9;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Additional styling for links and lists */
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 600px) {
+            .container {
+                grid-template-areas: 
+                    "header"
+                    "main"
+                    "sidebar"
+                    "footer";
+                grid-template-columns: 1fr; /* Single column layout */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Welcome to My Simple Layout</h1>
+        </header>
+
+        <aside>
+            <h2>Sidebar</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <h2 id="about">About HTML</h2>
+            <p>HTML stands for HyperText Markup Language. It is the standard language for creating web pages.</p>
+
+            <h2 id="resources">Useful Resources</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+                <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy - Learn HTML</a></li>
+            </ul>
+
+            <h2 id="contact">Contact Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 My Simple Layout Page</p>
+        </footer>
+    </div>
+
+</body>
+</html>
+
+Layout Overview:
+Header: Contains the main title of the page.
+Sidebar: Provides navigation links to different sections of the page.
+Main Content: Includes various sections, such as information about HTML and a contact form.
+Footer: Contains copyright information.
+
+Key Features:
+CSS Grid: Used for layout to create a flexible and responsive design.
+Responsive Design: Media query for smaller screens rearranges the layout to a single column.
+Overflow Handling: The main area can scroll if the content exceeds the viewport height.
+
+Day 5
+
+Start a small interactive feature on your webpage using JavaScript
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interactive Layout</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "header header"
+                "sidebar main"
+                "footer footer";
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: auto 1fr auto;
+            height: 100vh;
+        }
+
+        header {
+            grid-area: header;
+            background-color: #2980b9;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        aside {
+            grid-area: sidebar;
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            transition: transform 0.3s ease; /* Smooth transition */
+        }
+
+        aside.hidden {
+            transform: translateX(-100%); /* Hide sidebar */
+        }
+
+        main {
+            grid-area: main;
+            background-color: white;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        footer {
+            grid-area: footer;
+            background-color: #2980b9;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        button {
+            margin: 10px;
+            padding: 10px 15px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Welcome to My Interactive Layout</h1>
+            <button id="toggleSidebar">Toggle Sidebar</button> <!-- Button to toggle sidebar -->
+        </header>
+
+        <aside id="sidebar">
+            <h2>Sidebar</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <h2 id="about">About HTML</h2>
+            <p>HTML stands for HyperText Markup Language. It is the standard language for creating web pages.</p>
+
+            <h2 id="resources">Useful Resources</h2>
+            <ul>
+                <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+                <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy - Learn HTML</a></li>
+            </ul>
+
+            <h2 id="contact">Contact Form</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 My Interactive Layout Page</p>
+        </footer>
+    </div>
+
+    <script>
+        // JavaScript to toggle the sidebar visibility
+        const toggleButton = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleButton.addEventListener('click', () => {
+            sidebar.classList.toggle('hidden'); // Toggle the 'hidden' class
+        });
+    </script>
+
+</body>
+</html>
+
+
+Day 6
+
+JavaScript control flow (if statements, loops)
+
+if statement
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Control Flow Example</title>
+</head>
+<body>
+
+    <h1>Number Classification</h1>
+    <p>Enter a number to check if it is positive, negative, or zero:</p>
+    <input type="number" id="numberInput" placeholder="Enter a number">
+    <button id="checkButton">Check Number</button>
+    <p id="result"></p>
+
+    <script>
+        const button = document.getElementById('checkButton');
+        const resultDisplay = document.getElementById('result');
+
+        button.addEventListener('click', () => {
+            const number = parseFloat(document.getElementById('numberInput').value);
+            if (number > 0) {
+                resultDisplay.textContent = "The number is positive.";
+            } else if (number < 0) {
+                resultDisplay.textContent = "The number is negative.";
+            } else {
+                resultDisplay.textContent = "The number is zero.";
+            }
+        });
+    </script>
+
+</body>
+</html>
+
+
+for loop
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Loop Example</title>
+</head>
+<body>
+
+    <h1>Display Numbers</h1>
+    <p>Click the button to display numbers from 1 to 10:</p>
+    <button id="displayButton">Display Numbers</button>
+    <ul id="numberList"></ul>
+
+    <script>
+        const button = document.getElementById('displayButton');
+        const numberList = document.getElementById('numberList');
+
+        button.addEventListener('click', () => {
+            numberList.innerHTML = ''; // Clear previous list
+            for (let i = 1; i <= 10; i++) {
+                const listItem = document.createElement('li');
+                listItem.textContent = i; // Add the current number to the list
+                numberList.appendChild(listItem); // Append the list item to the list
+            }
+        });
+    </script>
+
+</body>
+</html>
+
+while loop
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript While Loop Example</title>
+</head>
+<body>
+
+    <h1>Countdown Timer</h1>
+    <p>Click the button to start a countdown from 5:</p>
+    <button id="countdownButton">Start Countdown</button>
+    <p id="countdownResult"></p>
+
+    <script>
+        const button = document.getElementById('countdownButton');
+        const countdownResult = document.getElementById('countdownResult');
+
+        button.addEventListener('click', () => {
+            let countdown = 5; // Starting countdown value
+            countdownResult.textContent = ''; // Clear previous result
+
+            const countdownInterval = setInterval(() => {
+                if (countdown > 0) {
+                    countdownResult.textContent = countdown; // Update display
+                    countdown--; // Decrease countdown
+                } else {
+                    clearInterval(countdownInterval); // Stop the interval
+                    countdownResult.textContent = 'Countdown finished!';
+                }
+            }, 1000); // Update every second
+        });
+    </script>
+
+</body>
+</html>
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Enhance your interactive feature with DOM manipulation.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Number Classification</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        #history {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+
+        .history-item {
+            margin: 5px 0;
+            padding: 5px;
+            border-left: 5px solid #3498db; /* Blue left border */
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Number Classification</h1>
+    <p>Enter a number to check if it is positive, negative, or zero:</p>
+    <input type="number" id="numberInput" placeholder="Enter a number">
+    <button id="checkButton">Check Number</button>
+    <p id="result"></p>
+
+    <div id="history">
+        <h2>Classification History</h2>
+        <ul id="historyList"></ul>
+    </div>
+
+    <script>
+        const button = document.getElementById('checkButton');
+        const resultDisplay = document.getElementById('result');
+        const historyList = document.getElementById('historyList');
+
+        button.addEventListener('click', () => {
+            const number = parseFloat(document.getElementById('numberInput').value);
+            let classification;
+
+            if (number > 0) {
+                classification = "positive";
+            } else if (number < 0) {
+                classification = "negative";
+            } else {
+                classification = "zero";
+            }
+
+            resultDisplay.textContent = `The number is ${classification}.`;
+            addToHistory(number, classification); // Add to history
+        });
+
+        function addToHistory(number, classification) {
+            const listItem = document.createElement('li'); // Create a new list item
+            listItem.className = 'history-item'; // Add class for styling
+            listItem.textContent = `Number: ${number}, Classification: ${classification}`; // Set text
+            historyList.appendChild(listItem); // Append the new item to the history list
+        }
+    </script>
+
+</body>
+</html>
+
+
+Day 7
+
+1. functions
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Functions Example</title>
+</head>
+<body>
+
+    <h1>Basic Function Example</h1>
+    <p id="result"></p>
+
+    <script>
+        function addNumbers(a, b) {
+            return a + b; // Return the sum of two numbers
+        }
+
+        const sum = addNumbers(5, 10); // Call the function
+        document.getElementById('result').textContent = `The sum is: ${sum}`;
+    </script>
+
+</body>
+</html>
+
+
+2. scope
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Scope Example</title>
+</head>
+<body>
+
+    <h1>Scope Example</h1>
+    <p id="result"></p>
+
+    <script>
+        let globalVariable = "I am a global variable!";
+
+        function displayVariables() {
+            let localVariable = "I am a local variable!";
+            document.getElementById('result').textContent = `${globalVariable} ${localVariable}`;
+        }
+
+        displayVariables();
+    </script>
+
+</body>
+</html>
+
+3. closures
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Closures Example</title>
+</head>
+<body>
+
+    <h1>Closure Example</h1>
+    <button id="incrementButton">Increment</button>
+    <p id="countDisplay"></p>
+
+    <script>
+        function createCounter() {
+            let count = 0; // Private variable
+
+            return function() { // Closure
+                count++; // Increment count
+                return count; // Return the updated count
+            };
+        }
+
+        const counter = createCounter(); // Create a new counter instance
+
+        document.getElementById('incrementButton').addEventListener('click', () => {
+            const count = counter(); // Call the closure
+            document.getElementById('countDisplay').textContent = `Count: ${count}`;
+        });
+    </script>
+
+</body>
+</html>
+
+
+Explanation of Each Concept
+Functions:
+
+We defined a simple function addNumbers that takes two parameters and returns their sum. Functions can be reused throughout the code.
+Scope:
+
+In the scope example, globalVariable is accessible anywhere in the script, while localVariable is only accessible within the displayVariables function. This demonstrates how variables are scoped based on where they are declared.
+Closures:
+
+The createCounter function returns an inner function that maintains access to its own count variable even after createCounter has finished executing. This is a powerful feature that allows for private data management.
+Practical Use Cases
+Functions: Used to encapsulate logic, reduce code duplication, and improve maintainability.
+Scope: Helps prevent naming conflicts and manage variable accessibility.
+Closures: Useful for data encapsulation, creating private variables, and maintaining state in asynchronous programming.
+
+
+Day 8
+
+Asynchronous JavaScript (callbacks, promises)
+
+1. Callbacks
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Callback Example</title>
+</head>
+<body>
+
+    <h1>Callback Example</h1>
+    <button id="fetchButton">Fetch Data</button>
+    <p id="dataDisplay"></p>
+
+    <script>
+        function fetchData(callback) {
+            setTimeout(() => {
+                const data = "Fetched data after 2 seconds";
+                callback(data); // Call the provided callback with the data
+            }, 2000);
+        }
+
+        document.getElementById('fetchButton').addEventListener('click', () => {
+            fetchData((data) => {
+                document.getElementById('dataDisplay').textContent = data; // Update the DOM with fetched data
+            });
+        });
+    </script>
+
+</body>
+</html>
+
+
+2. promises
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise Example</title>
+</head>
+<body>
+
+    <h1>Promise Example</h1>
+    <button id="fetchButton">Fetch Data</button>
+    <p id="dataDisplay"></p>
+
+    <script>
+        function fetchData() {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    const success = true; // Simulate a successful fetch
+                    if (success) {
+                        resolve("Fetched data after 2 seconds"); // Fulfill the promise
+                    } else {
+                        reject("Error fetching data"); // Reject the promise
+                    }
+                }, 2000);
+            });
+        }
+
+        document.getElementById('fetchButton').addEventListener('click', () => {
+            fetchData()
+                .then(data => {
+                    document.getElementById('dataDisplay').textContent = data; // Handle the resolved promise
+                })
+                .catch(error => {
+                    document.getElementById('dataDisplay').textContent = error; // Handle any errors
+                });
+        });
+    </script>
+
+</body>
+</html>
+
+
+Key Differences Between Callbacks and Promises
+Readability: Promises can help avoid "callback hell," where multiple nested callbacks make code hard to read and maintain.
+Error Handling: Promises have a built-in mechanism for handling errors, making it easier to catch and manage them.
+
+3. async/await
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async/Await Example</title>
+</head>
+<body>
+
+    <h1>Async/Await Example</h1>
+    <button id="fetchButton">Fetch Data</button>
+    <p id="dataDisplay"></p>
+
+    <script>
+        function fetchData() {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    const success = true; // Simulate a successful fetch
+                    if (success) {
+                        resolve("Fetched data after 2 seconds");
+                    } else {
+                        reject("Error fetching data");
+                    }
+                }, 2000);
+            });
+        }
+
+        document.getElementById('fetchButton').addEventListener('click', async () => {
+            try {
+                const data = await fetchData(); // Await the promise
+                document.getElementById('dataDisplay').textContent = data; // Display the data
+            } catch (error) {
+                document.getElementById('dataDisplay').textContent = error; // Handle errors
+            }
+        });
+    </script>
+
+</body>
+</html>
+
+Day 9
+
+Responsive web design principles
+
+Responsive web design (RWD) is an approach that ensures web applications and websites adapt seamlessly to various screen sizes and devices. Here are the key principles of responsive web design:
+
+### 1. Fluid Grids
+- **Definition**: Instead of fixed-width layouts, fluid grids use relative units like percentages to define element widths. This allows elements to scale and rearrange according to the screen size.
+- **Example**: A two-column layout can stack into a single column on smaller screens.
+
+### 2. Flexible Images
+- **Definition**: Images should be responsive to ensure they fit within their containing elements without exceeding their width. This can be achieved by using CSS properties.
+- **CSS Example**:
+  ```css
+  img {
+      max-width: 100%; /* Ensures images do not overflow their container */
+      height: auto;    /* Maintains aspect ratio */
+  }
+  ```
+
+### 3. Media Queries
+- **Definition**: Media queries allow you to apply different styles based on the characteristics of the device (e.g., screen width, orientation). This is essential for creating tailored experiences across devices.
+- **Example**:
+  ```css
+  @media (max-width: 768px) {
+      body {
+          background-color: lightblue; /* Change background color for smaller screens */
+      }
+  }
+  ```
+
+### 4. Mobile-First Approach
+- **Definition**: Design the mobile version of a website first, then progressively enhance the experience for larger screens. This ensures that the core functionality is available on all devices.
+- **Strategy**: Start with essential features for mobile, and add more complex layouts and functionalities as the screen size increases.
+
+### 5. Responsive Typography
+- **Definition**: Use relative units (like `em`, `rem`, or percentages) instead of fixed units (like pixels) for font sizes. This ensures text scales appropriately on different devices.
+- **Example**:
+  ```css
+  body {
+      font-size: 16px; /* Base font size */
+  }
+
+  h1 {
+      font-size: 2rem; /* Scales based on the root font size */
+  }
+  ```
+
+### 6. Touch-Friendly Design
+- **Definition**: Design elements should be easily tappable on touch devices. This includes considering button sizes, spacing, and gesture interactions.
+- **Best Practices**: Use larger buttons and adequate spacing to enhance usability on touch screens.
+
+### 7. Testing Across Devices
+- **Definition**: Regularly test your design on various devices and screen sizes to ensure functionality and aesthetics. Emulators can help, but real device testing is ideal.
+- **Tools**: Use browser developer tools, online testing services, and real devices for testing.
+
+### 8. Content Prioritization
+- **Definition**: Prioritize important content for smaller screens. This may involve rearranging or hiding less critical elements to enhance usability on mobile devices.
+- **Implementation**: Use CSS to hide or display elements based on screen size.
+
+### 9. Performance Optimization
+- **Definition**: Ensure fast loading times and performance, especially on mobile networks. Optimize images, minify CSS/JavaScript, and leverage caching.
+- **Techniques**: Use responsive image techniques (`srcset`) to serve appropriately sized images based on the screen resolution.
+
+### 10. Use of Frameworks
+- **Definition**: Consider using responsive design frameworks (like Bootstrap or Foundation) that provide built-in classes and components to facilitate responsive design.
+- **Benefits**: Frameworks speed up development and ensure adherence to best practices.
+
+### Summary
+Responsive web design is about creating a seamless user experience across all devices. By employing fluid grids, flexible images, media queries, and focusing on mobile-first design principles, developers can ensure their websites look great and function well, no matter the screen size. Regular testing and performance optimization further enhance the user experience, making responsive design a crucial aspect of modern web development.
+
+
+Day 10
+
+Apply responsive design techniques to your webpage to make it mobile-friendly.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Design Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            padding: 10px;
+            background: #3498db;
+            color: white;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            flex: 1 1 300px; /* Flex-grow, flex-shrink, and a base width of 300px */
+            margin: 10px;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        img {
+            max-width: 100%; /* Make images responsive */
+            height: auto;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .flex-container {
+                flex-direction: column; /* Stack columns on smaller screens */
+            }
+
+            header {
+                font-size: 1.5em; /* Increase header size for visibility */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Responsive Web Design Example</h1>
+    </header>
+
+    <div class="container">
+        <div class="flex-container">
+            <div class="card">
+                <h2>Card Title 1</h2>
+                <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+                <p>This is some text about the first card. It's a great way to provide information!</p>
+            </div>
+            <div class="card">
+                <h2>Card Title 2</h2>
+                <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+                <p>This is some text about the second card. It's informative and interesting!</p>
+            </div>
+            <div class="card">
+                <h2>Card Title 3</h2>
+                <img src="https://via.placeholder.com/300" alt="Placeholder Image">
+                <p>This is some text about the third card. Engage your audience!</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+Key Features of the Responsive Design:
+Viewport Meta Tag:
+
+The <meta name="viewport" content="width=device-width, initial-scale=1.0"> tag ensures the page scales correctly on different devices.
+Fluid Grids:
+
+The .flex-container uses Flexbox to create a flexible layout that adjusts based on screen size. Each card can grow or shrink based on available space.
+Flexible Images:
+
+The img style max-width: 100% makes images responsive, ensuring they scale within their containers.
+Media Queries:
+
+The media query @media (max-width: 768px) adjusts the layout for smaller screens, changing the flex direction to column so that cards stack vertically.
+Responsive Typography:
+
+Adjusts header size within the media query to enhance readability on smaller screens.
+Testing the Design
+To see the responsiveness in action:
+
+Open the HTML file in a web browser.
+Resize the browser window or use the browser's developer tools to simulate different device sizes.
+Observe how the layout adjusts to maintain usability and aesthetics.
+
+
+Day 11
+
+Object-oriented JavaScript
+
+
+Object-oriented JavaScript (OOJS) is a programming paradigm that uses objects to represent data and methods. It allows for better organization, code reuse, and maintainability. Here’s an overview of its key concepts, including creating objects, prototypes, classes, and inheritance.
+
+### Key Concepts of Object-Oriented JavaScript
+
+1. **Objects**
+   - In JavaScript, an object is a collection of key-value pairs. Each key (property) can hold a value, which can be of any type (including functions).
+
+   ```javascript
+   const person = {
+       name: 'Alice',
+       age: 30,
+       greet: function() {
+           console.log(`Hello, my name is ${this.name}`);
+       }
+   };
+
+   person.greet(); // Output: Hello, my name is Alice
+   ```
+
+2. **Constructor Functions**
+   - A constructor function is used to create multiple instances of an object. It’s typically defined with a capitalized name.
+
+   ```javascript
+   function Person(name, age) {
+       this.name = name;
+       this.age = age;
+   }
+
+   Person.prototype.greet = function() {
+       console.log(`Hello, my name is ${this.name}`);
+   };
+
+   const person1 = new Person('Bob', 25);
+   const person2 = new Person('Charlie', 35);
+
+   person1.greet(); // Output: Hello, my name is Bob
+   person2.greet(); // Output: Hello, my name is Charlie
+   ```
+
+3. **Prototypes**
+   - Every JavaScript object has a prototype, which is another object from which it can inherit properties and methods. You can add methods to the prototype of a constructor to share them across instances.
+
+   ```javascript
+   Person.prototype.isAdult = function() {
+       return this.age >= 18;
+   };
+
+   console.log(person1.isAdult()); // Output: true
+   console.log(person2.isAdult()); // Output: true
+   ```
+
+4. **Classes (ES6 Syntax)**
+   - ES6 introduced the `class` syntax, which provides a clearer and more concise way to create objects and handle inheritance.
+
+   ```javascript
+   class Animal {
+       constructor(name) {
+           this.name = name;
+       }
+
+       speak() {
+           console.log(`${this.name} makes a noise.`);
+       }
+   }
+
+   class Dog extends Animal {
+       speak() {
+           console.log(`${this.name} barks.`);
+       }
+   }
+
+   const dog = new Dog('Rex');
+   dog.speak(); // Output: Rex barks.
+   ```
+
+5. **Inheritance**
+   - JavaScript supports inheritance, allowing one class to inherit properties and methods from another class. This is achieved using the `extends` keyword.
+
+   ```javascript
+   class Cat extends Animal {
+       speak() {
+           console.log(`${this.name} meows.`);
+       }
+   }
+
+   const cat = new Cat('Whiskers');
+   cat.speak(); // Output: Whiskers meows.
+   ```
+
+6. **Encapsulation**
+   - Encapsulation involves bundling the data (properties) and methods that operate on that data within one unit (the object). In JavaScript, you can use closures or the `#` syntax (private fields in ES2022) to create private properties.
+
+   ```javascript
+   class Counter {
+       #count = 0; // Private field
+
+       increment() {
+           this.#count++;
+       }
+
+       getCount() {
+           return this.#count;
+       }
+   }
+
+   const counter = new Counter();
+   counter.increment();
+   console.log(counter.getCount()); // Output: 1
+   ```
+
+### Summary
+Object-oriented JavaScript allows developers to build structured and reusable code through the use of objects, classes, and prototypes. Here’s a quick recap of the concepts:
+
+- **Objects**: Key-value pairs that hold data and methods.
+- **Constructor Functions**: Functions that create multiple instances of an object.
+- **Prototypes**: Objects from which other objects can inherit properties and methods.
+- **Classes**: A modern syntax to define objects and handle inheritance.
+- **Inheritance**: A mechanism to create a new class that inherits properties and methods from an existing class.
+- **Encapsulation**: Bundling data and methods within an object, allowing for controlled access to the internal state.
+
+By leveraging these principles, you can create robust, scalable, and maintainable JavaScript applications!
+
+
+Summary
+Object-oriented JavaScript allows developers to build structured and reusable code through the use of objects, classes, and prototypes. Here’s a quick recap of the concepts:
+
+Objects: Key-value pairs that hold data and methods.
+Constructor Functions: Functions that create multiple instances of an object.
+Prototypes: Objects from which other objects can inherit properties and methods.
+Classes: A modern syntax to define objects and handle inheritance.
+Inheritance: A mechanism to create a new class that inherits properties and methods from an existing class.
+Encapsulation: Bundling data and methods within an object, allowing for controlled access to the internal state.
+
+Day 12
+
+Promises, async/await, and error handling
+
+
+Promises and `async/await` are fundamental to managing asynchronous operations in JavaScript, particularly when dealing with tasks such as fetching data from APIs. Effective error handling is also crucial in ensuring your application remains stable and user-friendly. Here’s a detailed look at these concepts:
+
+### Promises
+
+A **Promise** is an object that represents the eventual completion (or failure) of an asynchronous operation and its resulting value. Promises have three states: 
+- **Pending**: The initial state, neither fulfilled nor rejected.
+- **Fulfilled**: The operation completed successfully.
+- **Rejected**: The operation failed.
+
+#### Creating and Using Promises
+
+Here’s how to create a Promise:
+
+```javascript
+const fetchData = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const success = true; // Simulate a successful fetch
+            if (success) {
+                resolve("Data fetched successfully!");
+            } else {
+                reject("Error fetching data.");
+            }
+        }, 2000);
+    });
+};
+
+fetchData()
+    .then(data => console.log(data)) // Handle successful resolution
+    .catch(error => console.error(error)); // Handle rejection
+```
+
+### Async/Await
+
+`async/await` is a syntax sugar built on top of Promises that makes asynchronous code easier to read and write.
+
+- **`async`**: A function declared with `async` will always return a Promise.
+- **`await`**: You can use `await` inside an `async` function to pause execution until the Promise resolves.
+
+#### Using Async/Await
+
+Here’s how to use `async/await` for handling asynchronous operations:
+
+```javascript
+const fetchData = () => {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            const success = true; // Simulate a successful fetch
+            if (success) {
+                resolve("Data fetched successfully!");
+            } else {
+                reject("Error fetching data.");
+            }
+        }, 2000);
+    });
+};
+
+const getData = async () => {
+    try {
+        const data = await fetchData(); // Wait for the promise to resolve
+        console.log(data); // Handle successful resolution
+    } catch (error) {
+        console.error(error); // Handle errors
+    }
+};
+
+getData(); // Call the async function
+```
+
+### Error Handling
+
+Effective error handling is essential when dealing with asynchronous code. Here are some strategies:
+
+1. **Using `.catch()` with Promises**:
+   - If you're using Promises, you can chain a `.catch()` method to handle errors.
+
+   ```javascript
+   fetchData()
+       .then(data => console.log(data))
+       .catch(error => console.error("Error:", error));
+   ```
+
+2. **Using `try/catch` with Async/Await**:
+   - Inside an `async` function, wrap your `await` calls in a `try/catch` block to handle errors gracefully.
+
+   ```javascript
+   const getData = async () => {
+       try {
+           const data = await fetchData();
+           console.log(data);
+       } catch (error) {
+           console.error("Error:", error);
+       }
+   };
+   ```
+
+3. **Handling Specific Errors**:
+   - You can differentiate between different types of errors by checking the error message or type, allowing you to take specific actions based on the error.
+
+   ```javascript
+   const getData = async () => {
+       try {
+           const data = await fetchData();
+           console.log(data);
+       } catch (error) {
+           if (error.message === "Error fetching data.") {
+               console.error("Network error occurred.");
+           } else {
+               console.error("An unexpected error occurred:", error);
+           }
+       }
+   };
+   ```
+
+### Summary
+
+- **Promises**: Allow for asynchronous operations to be handled cleanly with `.then()` and `.catch()` methods.
+- **Async/Await**: Provide a more readable syntax for working with Promises, allowing you to write asynchronous code in a synchronous style.
+- **Error Handling**: Essential for robust applications, enabling graceful recovery from errors using `.catch()` or `try/catch` with `async/await`.
+
+By mastering these concepts, you'll be well-equipped to manage asynchronous operations and maintain the stability of your JavaScript applications!
+
+Day 13
+
+
+
+

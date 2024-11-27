@@ -1,0 +1,44 @@
+PYTHON DEVELOPER INTERN
+-----------------------
+COMPANY - Innovateshield solutions
+
+About the job
+=============
+Skills:
+Python programming, Data structures, Algorithms, Object-oriented programming, Problem-solving, Debugging, Version control (Git), Basic understanding of web development,
+
+Company Overview
+
+At Innovateshield Solutions, we specialize in providing comprehensive services including enterprise software development, digital marketing, and eCommerce solutions. By closely collaborating with clients, we tailor our offerings to suit their unique requirements, ensuring custom solutions that support business objectives. With an employee base of 51-200, Innovateshield Solutions is headquartered in Bengaluru and operates in the Technology, Information, and Internet industry. For more details, visit our website at Innovateshield Solutions.
+
+For schedule your interview call HR Vijay (+91 89358 73969)
+
+Job Overview
+
+We are seeking a Python Development Intern to join our team. This entry-level position is ideal for freshers with up to 1 year of work experience. As a Full-Time, Remote intern, you will gain valuable industry experience while working from Bangalore, Chennai, Hyderabad, Pune, Kozhikode, or Delhi. You will primarily focus on developing and enhancing software solutions utilizing Python.
+
+Qualifications And Skills
+
+Proficiency in Python programming (Mandatory skill) to create efficient and scalable applications.
+Strong understanding of data structures (Mandatory skill) to ensure optimal data management and manipulation.
+Exceptional problem-solving skills (Mandatory skill) with the ability to analyze complex issues and develop effective solutions.
+Knowledge of algorithms to improve application performance and computation efficiency.
+Experience in object-oriented programming to enhance code reusability and modularity.
+Familiarity with debugging techniques to identify and resolve software issues quickly and effectively.
+Proficiency in version control using Git for efficient project collaboration and code management.
+Basic understanding of web development to support the creation of interactive and responsive applications.
+
+Roles And Responsibilities
+
+Collaborate with senior developers to design and implement software solutions using Python.
+Assist in debugging and testing software to ensure optimal functionality and performance.
+Participate in code reviews to maintain code quality and adhere to best practices.
+Work with cross-functional teams to integrate software components and third-party applications.
+Contribute to the documentation of software development processes and codebase.
+Stay updated with the latest trends and advancements in Python programming and software development.
+Ensure all deliverables are completed within predetermined timelines.
+Support continuous improvement by proposing and implementing innovative ideas for system enhancements.
+
+
+Desired Skills and Experience
+Python programming, Data structures, Algorithms, Object-oriented programming, Problem-solving, Debugging, Version control (Git), Basic understanding of web development

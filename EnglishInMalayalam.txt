@@ -1,0 +1,52 @@
+English	Pronunciation in Malayalam
+----------------------------------
+Hello			namasthe/namaskaram
+Welcome			swaagatham
+How are you?		sukhamalle?
+Fine			sukham thanne
+Glad to meet you	kandathil santhosham
+What is your name?	perenthaa?
+I am John?		jnaan John
+Come in			akathekku varu
+Sit down		irikku
+Stop			nikku
+Go forward.		mumpottu poku
+Go back			purakottu poku
+Go straight		nere pokuka
+I want to get down here	ivide iranganam
+Next stop		adutha stop
+Listen			sraddhikhu
+Please			dayavaai
+Thank you		nanni
+Goodbye			poyivaraam
+I want			venam
+Can you help me please?	onnu sahaayikkumo?
+I agree			jnaan samathikkunnu
+I disagree		jnaan yogikunnilla
+Good			nannayirikkunnu
+Congratulations		abhinandanangal
+I request you		jnaan apekshikkunnu
+Thanks a lot		valare upakaram
+Excuse me/sorry		kshamikkanam
+I apologise		jnaan mappu chothikkunnu
+Let's go		namukku pokam
+How much will it cost?	ithinu enthu vila varum?
+Is this water good for drinking?	e vellam kudikkan kollamo?
+Can I make a phone call from here?	Onnu phone cheyyan pattumo?
+Where can I hire a taxi?	evide taxi kittum?
+Where does this road go?	e road evidekku pokum?
+I have no money.	ente kayyil paisa illa
+Don't speak so fast?	ithra vegathil samsarikkaruthe
+When do you go back?	ningal thirichu pokum?
+Come back again?	veendum varika
+Zero	poojyam
+One	onnu
+Two	randu
+Three	moonhu
+Four	naalu
+Five	anchu
+Six	aaru
+Seven	ezhu
+Eight	ettu
+Nine	onpathu
+Ten	pathu

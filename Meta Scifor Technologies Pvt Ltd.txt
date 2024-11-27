@@ -1,0 +1,133 @@
+Meta Scifor Technologies Pvt Ltd. - Python Developer Intern Program.
+
+What is the order of precedence in python?
+1. Exponential, Parentheses, Multiplication, Division, Addition, Subtraction
+2. Exponential, Parentheses, Division, Multiplication, Addition, Subtraction
+3. Parentheses, Exponential, Multiplication, Division, Subtraction, Addition
+4. Parentheses, Exponential, Multiplication, Division, Addition, Subtraction = correct
+
+Conditional statements are also known as ___ statements.
+
+1. Decision-making = correct
+2. Array
+3. List
+4. None of the mentioned above
+
+Python Dictionary is used to store the data in a ___ format.
+Key value pair = correct eg: my_dict = {'name': 'Alice', 'age': 25}
+Group value pair
+Select value pair
+None of the mentioned above
+
+In which language is Python written?
+
+English
+PHP
+C = correct
+All of the above
+
+Which of the following is not a core data type in Python programming?
+
+Tuples
+Lists
+Class = correct
+Dictionary
+
+Study the following program:
+
+i = 0
+while i < 3:
+       print(i)
+       i += 1 
+else:
+      print(0)  
+0 1
+0 1 2
+0 1 2 0 = correct
+0 1 2 3
+
+Which of the following is used to define a block of code in Python language?
+Indentation = correct
+Key
+Brackets
+All of the mentioned
+
+eg:
+if x > 0:
+    print("Positive number")
+    y = x + 1
+
+
+The % operator returns the ___.
+
+Quotient
+Divisor
+Remainder = correct
+None of the mentioned above
+
+What is the name of the operator ** in Python?
+Exponentiation = correct
+Modulus
+Floor division
+None of the mentioned above
+
+Which of the following is a Python tuple?
+{1, 2, 3}
+{}
+[1, 2, 3]
+(1, 2, 3) = correct
+
+
+What will be the output of the following Python code snippet?
+print([[i+j for i in "abc"] for j in "def"])
+[‘da’, ‘ea’, ‘fa’, ‘db’, ‘eb’, ‘fb’, ‘dc’, ‘ec’, ‘fc’]
+[[‘ad’, ‘bd’, ‘cd’], [‘ae’, ‘be’, ‘ce’], [‘af’, ‘bf’, ‘cf’]]
+[[‘da’, ‘db’, ‘dc’], [‘ea’, ‘eb’, ‘ec’], [‘fa’, ‘fb’, ‘fc’]]
+[‘ad’, ‘ae’, ‘af’, ‘bd’, ‘be’, ‘bf’, ‘cd’, ‘ce’, ‘cf’]
+
+correct ans: [['da', 'ea', 'fa'], ['db', 'eb', 'fb'], ['dc', 'ec', 'fc']]
+
+What will be the output of the following Python program?  
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+    if i == 3:
+        break
+else:
+    print(0)
+
+error
+0 1 2 0
+0 1 2 = correct
+none of the mentioned
+
+What will be the output of the following Python code?
+i = 1
+while True:
+    if i%3 == 0:
+        break
+    print(i)
+ 
+    i + = 1
+
+1 2 3
+error
+1 2 = correct
+none of the mentioned
+
+list, tuple, and range are the ___ of Data Types.
+
+Sequence Types = correct
+Binary Types
+Boolean Types
+None of the mentioned above
+
+What is the type of programming language supported by Python?
+Object-oriented
+Functional programming
+Structured programming
+All of the above = correct
+
+
+
