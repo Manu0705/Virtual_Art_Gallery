@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Art Gallery</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file for styling -->
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to the Virtual Art Gallery</h1>
+        <p>Explore our collection of stunning artwork!</p>
+    </header>
+
+    <!-- Main Gallery Section -->
+    <main>
+        <div class="gallery-container">
+            <!-- Artwork 1 -->
+            <div class="artwork" id="artwork1" style="display: none;">
+                <img src="ArtWork1.jpg" alt="Artwork 1">
+                <div class="artwork-info">
+                    <h2>Title: Starry Night</h2>
+                    <p>Credits: Boston Public Library</p>
+                    <p>Description: A beautiful night scene filled with swirling blue skies and bright stars.</p>
+                </div>
+            </div>
+
+            <!-- Artwork 2 -->
+            <div class="artwork" id="artwork2" style="display: none;">
+                <img src="ArtWork2.jpg" alt="Artwork 2">
+                <div class="artwork-info">
+                    <h2>Title: The Persistence of Memory</h2>
+                    <p>Credits: Boston Public Library</p>
+                    <p>Description: A surreal painting featuring melting clocks and dream-like landscapes.</p>
+                </div>
+            </div>
+
+            <!-- Additional artwork items can be added here in a similar format -->
+        </div>
+    </main>
+
+    <!-- Footer with Navigation Buttons -->
+    <footer>
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to JavaScript file for interactivity -->
+</body>
+</html>
